@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Udacity P1 Portfolio Project</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,100" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col-xs-3 col-sm-2">
+          <img id="logo" src="img/udacity-logo.png" alt="Udacity logo">
+        </div>
+        <div class="col-xs-9 col-sm-10 text-right text-uppercase">
+          <h1>Jane Doette</h1>
+          <h4>Front-End Ninja</h4>
+        </div>
+      </header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div> <!-- /.container-fluid -->
+      </nav>
+      <div id="main-photo" class="row">
+        <div class="col-md-12">
+          <img class="img-responsive"
+               src="img/macbook-coffee-1200.jpeg"
+               srcset="img/macbook-coffee-600.jpeg 600w,
+                       img/macbook-coffee-1200.jpeg 1200w,
+                       img/macbook-coffee-2400.jpeg 2400w"
+               sizes="100vw"
+               alt="">
+        </div>
+      </div>
+      <section id="featured-work" class="row">
+        <div class="col-md-12">
+          <h3>Featured Work</h3>
+          <div class="row text-center">
+            <article class="col-md-4">
+              <a href="http://github.com/udacity/Appify">
+                <img class="img-responsive"
+                   src="img/iphone-1200.jpeg"
+                   srcset="img/iphone-600.jpeg 600w,
+                           img/iphone-1200.jpeg 1200w,
+                           img/iphone-2400.jpeg 2400w"
+                   sizes="(min-width: 992px) 33.3vw, 100vw"
+                   alt="Appify">
+               </a>
+              <h2><a href="http://github.com/udacity/Appify">Appify</a></h2>
+              <p><a href="http://github.com/udacity/Appify">http://github.com/udacity/Appify</a></p>
+            </article>
+            <article class="col-md-4">
+              <a href="http://github.com/udacity/Sunflower">
+                <img class="img-responsive"
+                   src="img/sunflower-1200.jpeg"
+                   srcset="img/sunflower-600.jpeg 600w,
+                           img/sunflower-1200.jpeg 1200w,
+                           img/sunflower-2400.jpeg 2400w"
+                   sizes="(min-width: 992px) 33.3vw, 100vw"
+                   alt="Sunflower">
+              </a>
+              <h2><a href="http://github.com/udacity/Sunflower">Sunflower</a></h2>
+              <p><a href="http://github.com/udacity/Sunflower">http://github.com/udacity/Sunflower</a></p>
+            </article>
+            <article class="col-md-4">
+              <a href="http://github.com/udacity/Bokeh">
+                <img class="img-responsive"
+                     src="img/bokeh-1200.jpeg"
+                     srcset="img/bokeh-600.jpeg 600w,
+                             img/bokeh-1200.jpeg 1200w,
+                             img/bokeh-2400.jpeg 2400w"
+                     sizes="(min-width: 992px) 33.3vw, 100vw"
+                     alt="Bokeh">
+              </a>
+              <h2><a href="http://github.com/udacity/Bokeh">Bokeh</a></h2>
+              <p><a href="http://github.com/udacity/Bokeh">http://github.com/udacity/Bokeh</a></p>
+            </article>
+          </div> <!-- /.row -->
+        </div> <!-- /.col-md-12 -->
+      </section>
+    </div><!-- /.container -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
